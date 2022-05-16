@@ -9,6 +9,8 @@
 iot.embedded.connectivity.training.solutions==============================================
 
 https://myduino.com
+
+For more information, please contact us.
 hazrien@myduino.com
 ariffin@myduino.com
 ```
