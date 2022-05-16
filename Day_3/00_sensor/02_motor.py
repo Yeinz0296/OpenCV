@@ -1,4 +1,4 @@
-import YB_Pcb_Car  #Import Yahboom car library
+import YB_Pcb_Car
 import time
 
 car = YB_Pcb_Car.YB_Pcb_Car()

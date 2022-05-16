@@ -1,10 +1,3 @@
-'''
-@Copyright (C): 2010-2019, Shenzhen Yahboom Tech
-@Author: Malloy.Yuan
-@Date: 2019-07-30 20:34:09
-@LastEditors: Malloy.Yuan
-@LastEditTime: 2019-08-08 16:10:46
-'''
 
 #*****************************************************************#
 #                       Incremental PID system                    #            
