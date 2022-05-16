@@ -4,7 +4,7 @@ from cv2 import waitKey
 frameWidth = 480
 frameHeight = 240
 
-cap = cv2.VideoCapture('TestVideo.mp4')
+cap = cv2.VideoCapture('Day_1/test_video.mp4')
 # cap.set(3, frameWidth)
 # cap.set(4, frameHeight)
 

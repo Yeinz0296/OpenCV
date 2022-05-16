@@ -35,7 +35,7 @@ def stackImages(scale,imgArray):
         ver = hor
     return ver
 
-path = 'cat.png'
+path = 'Day_1/cat.png'
 
 cv2.namedWindow("TrackBars")
 cv2.resizeWindow("TrackBars",640,240)

@@ -64,7 +64,7 @@ def getContours(img):
 
 
 
-path = 'C:\Users\Yein-Work\Desktop\Programming Robotic Ai Computer Vision\Day 1\shapes.png'
+path = 'Day_1/shapes.png'
 img = cv2.imread(path)
 imgContour = img.copy()
 

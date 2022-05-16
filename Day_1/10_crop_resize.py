@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('cat.png')
+img = cv2.imread('Day_1/cat.png')
 print(img.shape) #To print the current image size #(Height, Width, BGR)
 
 width, height = 640, 480 #Can resize to small and big

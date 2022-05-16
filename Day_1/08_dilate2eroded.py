@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
  
-img = cv2.imread('cat.png')
+img = cv2.imread('Day_1/cat.png')
 kernel = np.ones((5,5), np.uint8)
 
 imgCanny = cv2.Canny(img, 150, 200)
