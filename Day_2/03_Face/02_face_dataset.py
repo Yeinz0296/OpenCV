@@ -26,14 +26,14 @@ while(True):
         count += 1
 
         # Save the captured image into the datasets folder
-        cv2.imwrite("Day 2/03_face/dataset/User." + str(face_id) + '.' + str(count) + ".jpg", gray[y:y+h,x:x+w])
+        cv2.imwrite("Day_2/03_face/dataset/User." + str(face_id) + '.' + str(count) + ".jpg", gray[y:y+h,x:x+w])
 
         cv2.imshow('image', img)
 
     k = cv2.waitKey(100) & 0xff # Press 'ESC' for exiting video
     if k == 27:
         break
-    elif count >= 30: # Take 30 face sample and stop video
+    elif count >= 20: # Take 30 face sample and stop video
          break
 
 # Do a bit of cleanup

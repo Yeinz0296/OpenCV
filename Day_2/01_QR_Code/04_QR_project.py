@@ -6,7 +6,7 @@ cap = cv2.VideoCapture(0)
 cap.set(3,640)
 cap.set(4,480)
 
-with open('Day 2/01_QR_Code/my_datafile.txt') as f:
+with open('Day_2/01_QR_Code/my_datafile.txt') as f:
     myDataList = f.read().splitlines()
 
 while True:
